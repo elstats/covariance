@@ -1,0 +1,25 @@
+{
+  "name": "stats-covariance",
+  "version": "1.0.0",
+  "description": "Calculate covariance",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msn0/stats-covariance.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msn0/stats-covariance/issues"
+  },
+  "homepage": "https://github.com/msn0/stats-covariance#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint-config-helmut": "^2.2.0",
+    "eslint-plugin-react": "^7.6.1",
+    "stats-mean": "^1.0.0"
+  }
+}
