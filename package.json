@@ -1,6 +1,6 @@
 {
-  "name": "stats-covariance",
-  "version": "1.0.0",
+  "name": "@stats/covariance",
+  "version": "0.1.0",
   "description": "Calculate covariance",
   "main": "index.js",
   "scripts": {
