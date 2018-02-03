@@ -1,10 +1,11 @@
-# stats-covariance
+# Covariance
+
 Calculate covariance
 
 ## Installation
 
 ```bash
-$ npm i @stats/covariance
+$ npm i @elstats/covariance
 ```
 
 ## Usage
