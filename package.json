@@ -1,5 +1,5 @@
 {
-  "name": "@stats/covariance",
+  "name": "@elstats/covariance",
   "version": "0.1.0",
   "description": "Calculate covariance",
   "main": "index.js",
