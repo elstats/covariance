@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msn0/stats-covariance.git"
+    "url": "git+https://github.com/elstats/covariance.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/msn0/stats-covariance/issues"
+    "url": "https://github.com/elstats/covariance/issues"
   },
-  "homepage": "https://github.com/msn0/stats-covariance#readme",
+  "homepage": "https://github.com/elstats/covariance#readme",
   "devDependencies": {
     "ava": "^0.25.0",
     "eslint-config-helmut": "^2.2.0",
