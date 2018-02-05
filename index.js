@@ -1,8 +1,6 @@
-'use strict';
+import mean from 'stats-mean';
 
-const mean = require('stats-mean');
-
-module.exports = function (X, Y) {
+export default function (X, Y) {
     if (X.length !== Y.length) {
         throw Error('X.length must match Y.length');
     }
@@ -18,4 +16,4 @@ module.exports = function (X, Y) {
     }
 
     return covariance / length;
-};
+}

@@ -2,9 +2,10 @@
   "name": "@elstats/covariance",
   "version": "0.1.0",
   "description": "Calculate covariance",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava --verbose",
+    "prepare": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,15 @@
   "homepage": "https://github.com/elstats/covariance#readme",
   "devDependencies": {
     "ava": "^0.25.0",
-    "eslint-config-helmut": "^2.2.0",
-    "eslint-plugin-react": "^7.6.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelrc-rollup": "^3.0.0",
+    "eslint-config-helmut": "^3.0.0",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^3.0.0",
     "stats-mean": "^1.0.0"
   }
 }
