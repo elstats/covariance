@@ -1,6 +1,6 @@
 {
   "name": "@elstats/covariance",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Calculate covariance",
   "main": "dist/index.js",
   "scripts": {
